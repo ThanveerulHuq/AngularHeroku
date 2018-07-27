@@ -13,7 +13,7 @@ export class AppComponent {
   title = 'app';
   // authConfig: AuthConfig = {
   //   issuer: 'https://accounts.google.com',
-  //   redirectUri: window.location.origin +'/redirect',
+  //   redirectUri: window.location.origin,
   //   clientId: "153534397041-uupegj0ca7ejqlmtmngq59of5u0cahva.apps.googleusercontent.com",
   //   scope: 'openid profile email',
   //   strictDiscoveryDocumentValidation: false
