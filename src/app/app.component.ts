@@ -48,6 +48,6 @@ export class AppComponent {
     if (!this.oAuthService.hasValidIdToken() || !this.oAuthService.hasValidAccessToken()) {
       this.oAuthService.initImplicitFlow();
     }
-  })
-  }*/
+  })*/
+  }
 }
