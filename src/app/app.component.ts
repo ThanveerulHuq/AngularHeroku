@@ -37,7 +37,7 @@ export class AppComponent {
     
   }
   ngOnInit() {
-    this.oAuthService.tryLogin({
+    /*this.oAuthService.tryLogin({
       onTokenReceived: context => {
           console.log('onTokenReceived:', context);
       },
@@ -49,5 +49,5 @@ export class AppComponent {
       this.oAuthService.initImplicitFlow();
     }
   })
-  }
+  }*/
 }
